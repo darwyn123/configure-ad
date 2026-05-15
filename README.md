@@ -27,27 +27,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<h2>Create a Resource Group</h2>
-
-- 
-
-  <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<h2>Create a Virtual Network and Subnet</h2>
-
--
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <h1><a href="https://github.com/darwyn123/azure-vm">Create 2 Microsoft Azure Virtual Machine</a></h1>
 
 - DC-1 running Windows Server 2022 Datacenter Azure Edition - x64 Gen2
 - Client-1 running Windows 10 Pro, version 22H2 - x64 Gen2
-    - Resource Group & Virtual Machice you created in both VM
+- Put both of these Azure Virtual Machines into:
+    - Resource Group called " "
+    - Virtual Machice called " "
 
 <h2>Configure static IP address on Domain Controller 1 (DC-1)</h2>
 

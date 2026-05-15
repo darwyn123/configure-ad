@@ -44,9 +44,30 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 
 <h1><a href="https://github.com/darwyn123/azure-vm">Create 2 Microsoft Azure Virtual Machine</a></h1>
-  - 
-  -
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+- DC-1 running Windows Server 2022 Datacenter Azure Edition - x64 Gen2
+- Client-1 running Windows 10 Pro, version 22H2 - x64 Gen2
+    - Resource Group & Virtual Machice you created in both VM
+
+<h2>Configure static IP address on Domain Controller 1 (DC-1)</h2>
+
+- ..
+
+<h2>Disable the Firewall</h2>
+
+- ..
+
+<h2>Configure DNS settings on Client-1</h2>
+
+- ..
+
+<h2>Install Active Directory on DC-1</h2>
+
+- ..
+
+
+
+
+  
+
+

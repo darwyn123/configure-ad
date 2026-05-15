@@ -65,6 +65,31 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - ..
 
+<h2>Create a Domain Admin User with the Domain</h2>
+
+- ..
+
+<h2>Join Client-1 to your Domain(mydomain.com)</h2>
+
+- ..
+
+
+<h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
+
+- ..
+
+<h2>Join Client-1 to your Domain(mydomain.com)</h2>
+
+- ..
+
+<h2>Add Organizational Units for Employees & Admins</h2>
+
+- ..
+
+<h2>Add a new admin named Jane Doe</h2>
+
+- ..
+
 
 
 

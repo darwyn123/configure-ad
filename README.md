@@ -34,7 +34,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Client-1 running Windows 10 Pro, version 22H2 - x64 Gen2
 - Put both of these Azure Virtual Machines into:
     - Resource Group called " "
-    - Virtual Machice called " "
+    - Virtual Machine called " "
 
 <h2>Configure static IP address on Domain Controller 1 (DC-1)</h2>
 

@@ -53,12 +53,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="618" height="638" alt="Virtual Network Creation" src="https://github.com/user-attachments/assets/6f7f9063-4f82-444c-9bfc-ba6d523e85a5" />
 </p>
 
-<b />
-
-<p>
-<img <img width="844" height="638" alt="DC-1 VM Creation" src="https://github.com/user-attachments/assets/b0376d29-f89a-4b03-b979-aa3d86fecf78" />
-</p>
-
 <br />
 
 <h1><a href="https://github.com/darwyn123/azure-vm">Create 2 Microsoft Azure Virtual Machine</a></h1>
@@ -66,15 +60,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Azure Virtual Machine 1:
    - Resource Group: New one you created (Active-Directory-RG)
    - Virtual Machine Name: "DC-1" running Windows Server 2025 Datacenter Azure Edition - x64 Gen2
-   - Virtual Network: New one you created ( )
+   - Virtual Network: New one you created (Active-Directory-VNet)
+  
 <p>
-<img <img width="844" height="638" alt="DC-1 VM Creation" src="https://github.com/user-attachments/assets/b0376d29-f89a-4b03-b979-aa3d86fecf78" />
+<img <img width="618" height="638" alt="DC-1 VM Creation Part 1" src="https://github.com/user-attachments/assets/d0848ba9-b577-4d80-a70b-b287e82e9fdc" />
 </p>
+<p>
+<img <img width="618" height="638" alt="DC-1 VM Creation 2" src="https://github.com/user-attachments/assets/d7224a94-5b5d-47d2-bbb0-1d5afce4dc21" />
+</p>
+
+<br />
 
 - Azure Virtual Machine 2:
    - Resource Group: New one you created (Active-Directory-RG)
    - Virtual Machine Name: "Client-1" running Windows 10 Pro, version 22H2 - x64 Gen2
-   - Virtual Network: New one you created ( )
+   - Virtual Network: New one you created (Active-Directory-VNet)
+  
 <p>
 <img <img width="1143" height="665" alt="IIS_CGI" src="https://github.com/user-attachments/assets/0874ff79-26cb-4c5a-a03b-c99bb76a702b" />
 </p>

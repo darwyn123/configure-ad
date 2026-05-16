@@ -48,8 +48,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Virtual Network name: "Active-Directory-VNet"
 - Make sure the region is the same region as Resource Group (Active-Directory-RG).
 - Click Review + create -> Create
-- Create a Virtual Network called " " 
-   - Make sure the region is same as Resource Group (Active-Directory-RG).
   
 <p>
 <img <img width="618" height="638" alt="Virtual Network Creation" src="https://github.com/user-attachments/assets/6f7f9063-4f82-444c-9bfc-ba6d523e85a5" />

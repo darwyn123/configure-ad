@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Azure Virtual Machine 1: 
    - Create a new Resource Group called "Active-Directory-RG"
-   - Named it "DC-1" running Windows Server 2025 Datacenter Azure Edition - x64 Gen2
+   - Virtual Machine name "DC-1" running Windows Server 2025 Datacenter Azure Edition - x64 Gen2
 <p>
 <img <img width="844" height="638" alt="DC-1 VM Creation" src="https://github.com/user-attachments/assets/b0376d29-f89a-4b03-b979-aa3d86fecf78" />
 </p>

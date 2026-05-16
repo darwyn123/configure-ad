@@ -77,7 +77,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
    - Virtual Network: New one you created (Active-Directory-VNet)
   
 <p>
-<img <img width="1143" height="665" alt="IIS_CGI" src="https://github.com/user-attachments/assets/0874ff79-26cb-4c5a-a03b-c99bb76a702b" />
+<img <img width="618" height="638" alt="Client-1 VM Creation 1" src="https://github.com/user-attachments/assets/915c0fa6-6aba-4ad1-9ea3-221ac5c45d1f" />
+</p>
+<p>
+<img <img width="618" height="638" alt="Client-1 VM Creation 2" src="https://github.com/user-attachments/assets/cdbd68f0-839d-471a-983c-c679d6025c9e" />
 </p>
 
 <br />

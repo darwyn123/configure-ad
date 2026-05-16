@@ -31,10 +31,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Create a Resource Group</h2>
 
-- Create a new Resource Group called "Active-Directory-RG"
+- Head over to the Azure Portal and sign in (create an account and start a subscription if needed).
+- Now head over to the Resource Group section (in the search bar type "Resource Group") than click "Create".
+- Resource Group name: "Active-Directory-RG"
+- Click "Review + create"
 
 <p>
-<img <img width="844" height="638" alt="DC-1 VM Creation" src="https://github.com/user-attachments/assets/b0376d29-f89a-4b03-b979-aa3d86fecf78" />
+<img <img width="618" height="638" alt="RG Creation" src="https://github.com/user-attachments/assets/26bc6b1c-8eca-43f7-ade7-cd71afa9c1e2" />
 </p>
 
 <h2>Create a Virtual Network</h2>

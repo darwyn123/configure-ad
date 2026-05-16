@@ -37,6 +37,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="844" height="638" alt="DC-1 VM Creation" src="https://github.com/user-attachments/assets/b0376d29-f89a-4b03-b979-aa3d86fecf78" />
 </p>
 
+<h2>Create a Virtual Network</h2>
+
 - Create a Virtual Network called " " 
    - Make sure the region is same as Resource Group (Active-Directory-RG). 
 

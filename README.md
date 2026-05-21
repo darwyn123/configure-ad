@@ -115,21 +115,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Put Firewall state: Off
   
 <p>
-<img <img width="1229" height="560" alt="Dynamic to Static" src="https://github.com/user-attachments/assets/bd677cd9-f5ca-4783-9c74-43372fc80679" />
+<img <img width="901" height="516" alt="Domain Profile" src="https://github.com/user-attachments/assets/c2c5de33-f81c-41d5-9511-6fc143b9e735" />
 </p>
 
 - Private Profile Tap:
     - Put Firewall state: Off
   
 <p>
-<img <img width="1229" height="560" alt="Dynamic to Static" src="https://github.com/user-attachments/assets/bd677cd9-f5ca-4783-9c74-43372fc80679" />
+<img <img width="901" height="516" alt="Private Profile" src="https://github.com/user-attachments/assets/e7a50b62-74ae-4b41-afc1-f776ec60319a" />
 </p>
 
 - Public Profile Tap:
     - Put Firewall state: Off
   
 <p>
-<img <img width="1229" height="560" alt="Dynamic to Static" src="https://github.com/user-attachments/assets/bd677cd9-f5ca-4783-9c74-43372fc80679" />
+<img <img width="901" height="516" alt="Public Profile" src="https://github.com/user-attachments/assets/6d880a45-561a-457f-b13b-df237be4bc68" />
 </p>
 
 <br />

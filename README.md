@@ -87,7 +87,24 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Configure static IP address on Domain Controller 1 (DC-1)</h2>
 
-- ..
+- Head over to Virtual Machine section in Azure Portal, and click on DC-1 to open Virtual Machine.
+- Navigate to Network -> Network Settings -> The name of the network interface (Under Network interface / IP configuration) in this case it's "dc-1234 (primary) / ipconfig1 (primary)" -> ipconfig1 (Under Name)
+
+<p>
+<img <img width="764" height="420" alt="NIC (Interface)" src="https://github.com/user-attachments/assets/229c2c2a-1816-44ce-abe3-c970e2cb9b64" />
+</p>
+<p>
+<img <img width="938" height="310" alt="Ipconfig1(NIC)" src="https://github.com/user-attachments/assets/c5cc79a5-8204-4048-ac4d-5919b589aed2" />
+</p>
+
+- Change Dynamic to Static
+- Click "Save"
+
+<p>
+<img <img width="1229" height="560" alt="Dynamic to Static" src="https://github.com/user-attachments/assets/bd677cd9-f5ca-4783-9c74-43372fc80679" />
+</p>
+
+<br />
 
 <h2>Disable the Firewall</h2>
 

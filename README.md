@@ -106,9 +106,37 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <br />
 
-<h2>Disable the Firewall</h2>
+<h2>For Testing Purpose Disable the Firewall</h2>
 
-- ..
+- After the domain controller fully initializes, minimize the Server Manager window for now.
+- Use windows search and type wf.msc to open "Windows Defender Firewall"
+- Click on "Windows Defender Firewall Properties"
+- Domain Profile Tap:
+    - Put Firewall state: Off
+  
+<p>
+<img <img width="1229" height="560" alt="Dynamic to Static" src="https://github.com/user-attachments/assets/bd677cd9-f5ca-4783-9c74-43372fc80679" />
+</p>
+
+- Private Profile Tap:
+    - Put Firewall state: Off
+  
+<p>
+<img <img width="1229" height="560" alt="Dynamic to Static" src="https://github.com/user-attachments/assets/bd677cd9-f5ca-4783-9c74-43372fc80679" />
+</p>
+
+- Public Profile Tap:
+    - Put Firewall state: Off
+  
+<p>
+<img <img width="1229" height="560" alt="Dynamic to Static" src="https://github.com/user-attachments/assets/bd677cd9-f5ca-4783-9c74-43372fc80679" />
+</p>
+
+<br />
+
+- Click Apply -> OK 
+
+
 
 <h2>Configure DNS settings on Client-1</h2>
 

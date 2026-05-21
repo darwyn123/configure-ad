@@ -132,11 +132,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="901" height="516" alt="Public Profile" src="https://github.com/user-attachments/assets/6d880a45-561a-457f-b13b-df237be4bc68" />
 </p>
 
-<br />
-
 - Click Apply -> OK 
 
-
+<br />
 
 <h2>Configure DNS settings on Client-1</h2>
 

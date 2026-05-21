@@ -138,7 +138,32 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Configure DNS settings on Client-1</h2>
 
-- ..
+- Open DC-1 Virtual Machine in Azure Portal, and copy DC-1 Private IP address.
+
+<p>
+<img <img width="1070" height="579" alt="DC-1 IP Address" src="https://github.com/user-attachments/assets/fd842528-61a3-40ff-8e45-ddd4fc41be34" />
+</p>
+
+- Than Open Client-1 Virtual Machine in Azure Portal, navigate to Network -> Network Settings -> The name of the network interface (Under Network interface / IP configuration) in this case it's "client-1741 (primary) / ipconfig1 (primary)" -> Settings -> DNS servers
+- Click on "Custom"
+- Under DNS server paste DC-1 Private IP Address
+- Click Save
+
+<p>
+<img <img width="1070" height="579" alt="Client-1 Nic" src="https://github.com/user-attachments/assets/9ec967b6-a173-4ffa-962b-cc6157af73c8" />
+</p>
+<p>
+<img <img width="575" height="579" alt="DNS server paste ip address" src="https://github.com/user-attachments/assets/cd9e546e-0fe7-4e6c-b1e3-1df106788e40" />
+</p>
+
+- From Azure Portal, restart Client-1 Virtual Machine
+    - Head over to Virtual Machine section in Azure Portal, check box next to Client-1 Virtual Machine and click Restart
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+<br />
 
 <h2>Install Active Directory on DC-1</h2>
 
@@ -165,9 +190,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - ..
 
-<h2>Add a new admin named Jane Doe</h2>
 
-- ..
 
 
 

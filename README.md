@@ -240,7 +240,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <h2>Add Organizational Units for Employees & Admins</h2>
-<h2>Create a Domain Admin User with the Domain</h2>
 
 - 
 

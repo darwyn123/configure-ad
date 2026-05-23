@@ -108,7 +108,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>For Testing Purpose Disable the Firewall</h2>
 
-- After the domain controller fully initializes, minimize the Server Manager window for now.
+- RDP into DC-1 Virtual Machine 
+- Minimize the Server Manager window for now.
 - Use windows search and type wf.msc to open "Windows Defender Firewall"
 - Click on "Windows Defender Firewall Properties"
 - Domain Profile Tap:

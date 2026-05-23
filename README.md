@@ -168,28 +168,108 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Install Active Directory on DC-1</h2>
 
-- ..
+- RDP into DC-1 Virtual Machine
+- Open Server Manager
+- Click on Add Roles and Features
 
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- Select "Next" 3 times to get to Server Roles -> Check box on "Active Directory Domain Services" to enable -> Add Features -> Select "Next" 3 times again -> Check box on "Restart the destination server automatically if required" -> Yes -> Install
+- Once installation is finish, click "Close"
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- In the top-right of the Server Manager window:
+    - Click the flag icon with a warning notification
+    - Select "Promote this server to a domain controller"
+      
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- In the Active Directory Domain Services Configuration Wizard:
+    - On "Deployment Configuration" tab:
+        - Check Box "Add a new forest"
+        - In Root domain name: Enter "mydomain.com"
+        - Click "Next"     
+     
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- On "Domain Controller Options" tab:
+    - Set a secure password in both fields
+    - Click "Next"
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- On "DNS Options" tab:
+    - Ensure Check box "Create DNS delegation" is unchecked
+    - Select "Next" 4 times -> After verifying Prerequisities click "Install" 
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- Server will Restart:
+    - You'll get signed out
+    - RDP back in using "mydomain.com\" added before your username (ex: mydomain.com\azureuser)
+ 
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- When the credentials are accepted, it will take a moment to load back to the desktop while the system waits for the Group Policy Client
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+<br />
+
+<h2>Add Organizational Units for Employees & Admins</h2>
 <h2>Create a Domain Admin User with the Domain</h2>
 
-- ..
+- 
+
+
+<br />
 
 <h2>Join Client-1 to your Domain(mydomain.com)</h2>
 
-- ..
+- 
 
+
+
+<br />
 
 <h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
 
-- ..
+- 
 
-<h2>Join Client-1 to your Domain(mydomain.com)</h2>
 
-- ..
+<br />
 
-<h2>Add Organizational Units for Employees & Admins</h2>
+<h2>Bulk create Active Directory with script and test</h2>
 
-- ..
+- 
+
+
+<br />
+
+
 
 
 

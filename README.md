@@ -318,7 +318,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
 </p>
 
-  - "Enter the object names to select:"
+  - Under "Enter the object names to select:"
     - Enter "domain admins"
   - Click Check Names > OK
   - Click Apply > OK
@@ -386,27 +386,66 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
 
 - On Client-1 (as Jane_admin):
-    - Open Settings
-    - Navigate to System > Remote Desktop
-    - Click Select users that can remotely access this PC
-    - Click Add...
+  - Right click Start Menu -> Navigate to System -> Remote Desktop
+  
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+  - Click "Select users that can remotely access this PC" -> Add...
+  - Under "Enter the object names to select:"
     - Enter "domain users"
-    - Click Check Names > OK
+  - Click Check Names -> OK -> OK
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p> 
 
 
 <br />
 
 <h2>Bulk create Active Directory with script and test</h2>
 
-- 
+- On DC-1 (as Jane_admin):
+  - Open PowerShell ISE
+  - Click File > New
+  - In the Untitled1.ps1 text box, write your own or paste this bulk user creation script
+    
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p> 
+
+  - Click green Run Script button
+  - Click red Stop Operation when desired users created
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p> 
+
+- Verify users:
+  - Check Active Directory Users and Computers
+  - Look in _EMPLOYEES folder
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p> 
 
 
 <br />
 
 <h2>Testing a Random Newly Created User</h2>
 
-- 
+- Attempt to RDP into Client-1 using one of the newly created Active Directory user credentials
 
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p> 
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p> 
 
 <br />
 

@@ -280,25 +280,48 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - User logon name: Jane_admin
 - Click Next
 
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
 - Set password:
   - Enter secure password
   - Uncheck Box "User must change password at next logon"
   - Check Box "Password never expires"
   - Click Next -> Finish
 
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
 - Add Jane Doe to Domain Admins:
-  - Right-click 👤 Jane Doe > Properties
-  - Navigate to 'Member of' tab
+  - Right click Jane Doe -> Properties
+  - Navigate to "Member of" tab
   - Click Add...
-  - Enter "domain admins"
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+  - "Enter the object names to select:"
+    - Enter "domain admins"
   - Click Check Names > OK
   - Click Apply > OK
 
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
 
+- Log out and log back in as Jane Doe
 
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
 
 <br />
-
 
 <h2>Join Client-1 to your Domain(mydomain.com)</h2>
 

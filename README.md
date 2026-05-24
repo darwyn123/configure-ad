@@ -164,6 +164,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
 </p>
 
+- RDP into Client-1
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- Test connection:
+  - Open Command Prompt
+  - Ping DC-1's IP (ex: ping 10.0.1.4)
+  - Verify response
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
 <br />
 
 <h2>Install Active Directory on DC-1</h2>
@@ -325,20 +340,70 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Join Client-1 to your Domain(mydomain.com)</h2>
 
-- 
+- RDP to "Client-1"
 
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
 
+- Right click Start Menu -> Navigate to System -> About -> Rename this PC (advanced) -> Change...
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- Under Member of: Click "Domain"
+  - Enter "mydomain.com"
+  - Click OK
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- Enter credentials for Jane Doe Admin: "mydomain.com\Jane_admin"
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- Restart Client-1
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
+
+- Verify on DC-1:
+  - Open Start Menu -> Windows Administrative Tools -> Active Directory Users and Computers
+  - Expand mydomain.com > Computers
+  - Verify Client-1 is listed
+
+<p>
+<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+</p>
 
 <br />
 
 <h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
 
-- 
+- On Client-1 (as Jane_admin):
+    - Open Settings
+    - Navigate to System > Remote Desktop
+    - Click Select users that can remotely access this PC
+    - Click Add...
+    - Enter "domain users"
+    - Click Check Names > OK
 
 
 <br />
 
 <h2>Bulk create Active Directory with script and test</h2>
+
+- 
+
+
+<br />
+
+<h2>Testing a Random Newly Created User</h2>
 
 - 
 

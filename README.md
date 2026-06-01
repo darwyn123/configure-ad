@@ -167,7 +167,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - RDP into Client-1
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="962" height="602" alt="RDP Client-1" src="https://github.com/user-attachments/assets/d79b43c1-d2ec-4ff1-88d0-577b2d8f9910" />
 </p>
 
 - Test connection:

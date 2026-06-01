@@ -212,7 +212,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Select "Promote this server to a domain controller"
       
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="1208" height="467" alt="Promote Directory" src="https://github.com/user-attachments/assets/b939ef05-5c3b-4a68-9c4e-e52bde1e9383" />
 </p>
 
 - In the Active Directory Domain Services Configuration Wizard:
@@ -222,7 +222,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
         - Click "Next"     
      
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="767" height="570" alt="Forest mydomain com" src="https://github.com/user-attachments/assets/56133906-0fbd-4de9-b613-47ef534e2c65" />
 </p>
 
 - On "Domain Controller Options" tab:
@@ -230,7 +230,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Click "Next"
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="767" height="570" alt="Secure Directory Password" src="https://github.com/user-attachments/assets/2eaeff4a-465e-4e71-857c-e19e8973e000" />
 </p>
 
 - On "DNS Options" tab:
@@ -238,7 +238,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - Select "Next" 4 times -> After verifying Prerequisities click "Install" 
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="767" height="570" alt="Uncheck box" src="https://github.com/user-attachments/assets/3514774e-6502-4fe4-bda1-5435c326ae6f" />
+</p>
+<p>
+<img <img width="767" height="570" alt="Install after prev" src="https://github.com/user-attachments/assets/11e95e58-1bd6-4905-aff8-d6ca99dc24ca" />
 </p>
 
 - Server will Restart:

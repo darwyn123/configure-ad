@@ -411,13 +411,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
  - Click OK
 
 <p>
-<img <img width="761" height="536" alt="Verify on DC-1" src="https://github.com/user-attachments/assets/a6f36ea7-e387-4865-81a6-c5e68e040d2e" />
+<img <img width="761" height="536" alt="_CLIENTS Creation" src="https://github.com/user-attachments/assets/38f1cba3-99e9-436b-8712-22646ed37c58" />
 </p>
 
 - Navigate to mydomain -> Computers and drag "client-1" into "_CLIENT" Organizational Unit
 
 <p>
-<img <img width="761" height="536" alt="Verify on DC-1" src="https://github.com/user-attachments/assets/a6f36ea7-e387-4865-81a6-c5e68e040d2e" />
+<img <img width="761" height="536" alt="Client-1 in _CLIENT" src="https://github.com/user-attachments/assets/fc9bcc94-a40f-4c9e-b119-38c16c1bdbad" />
 </p>
    
 

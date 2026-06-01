@@ -249,7 +249,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - RDP back into DC-1 using "mydomain.com\" added before your username (ex: mydomain.com\azureuser)
  
 <p>
-<img <img width="1172" height="717" alt="Login as mydomain com" src="https://github.com/user-attachments/assets/772f9592-f7d5-4656-afda-7242dc051373" />
+<img <img width="1172" height="717" alt="Login as mydomain" src="https://github.com/user-attachments/assets/738ebd30-3574-4e43-96b9-2afc8a31a07b" />
+</p>
+<p>
+<img <img width="921" height="601" alt="DC-1 Login mydomain com" src="https://github.com/user-attachments/assets/af772184-9af5-497c-af6a-4eb039a62ea8" />
 </p>
 
 
@@ -260,14 +263,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Open Start Menu -> Windows Administrative Tools -> Active Directory Users and Computers
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="1127" height="592" alt="Windows Active Directory" src="https://github.com/user-attachments/assets/8c0a7884-fe78-42d6-a15f-9635b80bef21" />
 </p>
 
 - Create Organizational Units:
   - Right click "mydomain.com" > New > Organizational Unit
  
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="755" height="531" alt="Right Click Domain" src="https://github.com/user-attachments/assets/28287ab9-424e-4317-adf9-720d7d8f0f22" />
 </p>
  
   - Name field: "_EMPLOYEES"

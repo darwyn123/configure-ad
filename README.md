@@ -358,7 +358,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - RDP to "Client-1"
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="848" height="617" alt="Client-1 RDP" src="https://github.com/user-attachments/assets/d810679d-9efe-4ab7-aea8-021b29512925" />
+</p>
+<p>
+<img <img width="848" height="617" alt="Client-1 Login 2" src="https://github.com/user-attachments/assets/5c301575-9890-44a6-acf2-014c62208142" />
 </p>
 
 - Right click Start Menu -> Navigate to System -> About -> Rename this PC (advanced) -> Change...

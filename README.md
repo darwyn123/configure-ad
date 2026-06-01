@@ -203,6 +203,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <img <img width="787" height="556" alt="Install Direct" src="https://github.com/user-attachments/assets/9610bfe5-00f5-434d-91ec-3fbc5382cd30" />
 </p>
+<p>
+<img <img width="787" height="556" alt="Install Complete" src="https://github.com/user-attachments/assets/b8dcebb8-7c97-4f73-bc91-1bad4fec1c1b" />
+</p>
 
 - In the top-right of the Server Manager window:
     - Click the flag icon with a warning notification

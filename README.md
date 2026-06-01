@@ -176,7 +176,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Verify response
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="956" height="527" alt="Test Ping " src="https://github.com/user-attachments/assets/2a8cc1c1-8b12-4fa2-9d43-0ec0c5aeb99f" />
 </p>
 
 <br />

@@ -345,7 +345,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Log out and log back in as Jane Doe
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="839" height="630" alt="Jane Doe Login" src="https://github.com/user-attachments/assets/3606af88-3718-4f74-a6a9-4ca29e754cbf" />
+</p>
+<p>
+<img <img width="839" height="630" alt="Jane Doe Login 2" src="https://github.com/user-attachments/assets/09fc672c-9a01-404e-8237-54d5bcaeb271" />
 </p>
 
 <br />

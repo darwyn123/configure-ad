@@ -198,10 +198,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Once installation is finish, click "Close"
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="787" height="556" alt="ACTive Directoy" src="https://github.com/user-attachments/assets/b47e602b-dd29-41c0-87ad-2da03ba840c6" />
 </p>
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="787" height="556" alt="Install Active Directory" src="https://github.com/user-attachments/assets/ef8f4d61-44ed-477b-bdff-7daf59ffce3c" />
 </p>
 <p>
 <img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />

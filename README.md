@@ -277,7 +277,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Click OK
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="755" height="531" alt="_EMPLOYEES" src="https://github.com/user-attachments/assets/677f9960-11a2-41e3-9799-17714befa511" />
+</p>
+<p>
+<img <img width="755" height="531" alt="_EMPLOYEE 2" src="https://github.com/user-attachments/assets/8da8534b-4225-4a88-b069-293586906f23" />
 </p>
 
   - Right click "mydomain.com" > New > Organizational Unit
@@ -285,7 +288,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Click OK
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="755" height="531" alt="_ADMINS" src="https://github.com/user-attachments/assets/08b7bffb-94b3-4d72-9a98-ae4516b300ef" />
 </p>
 
 
@@ -300,7 +303,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Click Next
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="755" height="531" alt="User Admin" src="https://github.com/user-attachments/assets/d722d978-0349-491d-a3fa-25faaca0f038" />
+</p>
+<p>
+<img <img width="755" height="531" alt="Jane Doe" src="https://github.com/user-attachments/assets/5770dccf-7f0c-4570-a091-ba51e3840774" />
 </p>
 
 - Set password:
@@ -310,7 +316,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Click Next -> Finish
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="755" height="531" alt="Password Admin" src="https://github.com/user-attachments/assets/02fbf7b5-6e3f-4312-a391-7299337efeed" />
 </p>
 
 - Add Jane Doe to Domain Admins:

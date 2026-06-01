@@ -367,7 +367,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Right click Start Menu -> Navigate to System -> About -> Rename this PC (advanced) -> Change...
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="807" height="629" alt="About PC Name" src="https://github.com/user-attachments/assets/cb2cad6f-95f9-431f-a948-c9cc46d15dea" />
+</p>
+<p>
+<img <img width="807" height="629" alt="PC   Change" src="https://github.com/user-attachments/assets/82967066-9f52-4f03-8e08-5d21cf308c69" />
 </p>
 
 - Under Member of: Click "Domain"
@@ -375,19 +378,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Click OK
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="807" height="612" alt="myDomain" src="https://github.com/user-attachments/assets/4ce62a7f-e360-47c4-ac28-6e615039f366" />
 </p>
 
 - Enter credentials for Jane Doe Admin: "mydomain.com\Jane_admin"
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="807" height="612" alt="Jane Password Domain" src="https://github.com/user-attachments/assets/f7295ff9-d182-4274-9287-36fbb62c60aa" />
+</p>
+<p>
+<img <img width="309" height="164" alt="Welcome Domain" src="https://github.com/user-attachments/assets/109bcb9d-25f1-48de-9ca4-d072de71e5c3" />
 </p>
 
 - Restart Client-1
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="376" height="253" alt="Restart Now" src="https://github.com/user-attachments/assets/11ffd403-f8eb-49d3-b969-dd71a4079133" />
 </p>
 
 - Verify on DC-1:

@@ -249,14 +249,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
     - RDP back in using "mydomain.com\" added before your username (ex: mydomain.com\azureuser)
  
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="1172" height="717" alt="Login as mydomain com" src="https://github.com/user-attachments/assets/772f9592-f7d5-4656-afda-7242dc051373" />
 </p>
 
-- When the credentials are accepted, it will take a moment to load back to the desktop while the system waits for the Group Policy Client
-
-<p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
-</p>
 
 <br />
 

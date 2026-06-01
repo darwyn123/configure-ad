@@ -246,7 +246,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Server will Restart:
     - You'll get signed out
-    - RDP back in using "mydomain.com\" added before your username (ex: mydomain.com\azureuser)
+    - RDP back into DC-1 using "mydomain.com\" added before your username (ex: mydomain.com\azureuser)
  
 <p>
 <img <img width="1172" height="717" alt="Login as mydomain com" src="https://github.com/user-attachments/assets/772f9592-f7d5-4656-afda-7242dc051373" />

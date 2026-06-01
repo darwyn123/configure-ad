@@ -188,7 +188,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Click on Add Roles and Features
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="962" height="603" alt="DC-1 RDP" src="https://github.com/user-attachments/assets/3d4d691a-7bfe-4bee-99b6-092013189420" />
+</p>
+<p>
+<img <img width="1440" height="832" alt="Server Manager Add Roles" src="https://github.com/user-attachments/assets/33b894ce-605b-4fe3-98a5-e69cd588c9c4" />
 </p>
 
 - Select "Next" 3 times to get to Server Roles -> Check box on "Active Directory Domain Services" to enable -> Add Features -> Select "Next" 3 times again -> Check box on "Restart the destination server automatically if required" -> Yes -> Install

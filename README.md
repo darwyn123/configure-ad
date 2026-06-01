@@ -318,6 +318,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <img <img width="755" height="531" alt="Password Admin" src="https://github.com/user-attachments/assets/02fbf7b5-6e3f-4312-a391-7299337efeed" />
 </p>
+<p>
+<img <img width="755" height="531" alt="Finish Jane Doe" src="https://github.com/user-attachments/assets/535b82e5-b076-4ac9-8629-ed5aa1851a73" />
+</p>
 
 - Add Jane Doe to Domain Admins:
   - Right click Jane Doe -> Properties
@@ -325,8 +328,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Click Add...
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="755" height="531" alt="Jane Doe Properties" src="https://github.com/user-attachments/assets/d038550e-e880-4d55-8c89-ee52375a46d9" />
 </p>
+
 
   - Under "Enter the object names to select:"
     - Enter "domain admins"
@@ -334,11 +338,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Click Apply > OK
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="755" height="531" alt="Domain Name Check Name" src="https://github.com/user-attachments/assets/11cd8792-d1eb-404e-a5c5-274cb06709bc" />
 </p>
-<p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
-</p>
+
 
 - Log out and log back in as Jane Doe
 

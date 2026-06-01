@@ -402,8 +402,24 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Verify Client-1 is listed
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="761" height="536" alt="Verify on DC-1" src="https://github.com/user-attachments/assets/5f6aaf30-d051-48bd-adfc-f636c32a1955" />
 </p>
+
+- Create New Organizational Unit called "_CLIENTS":
+ - Right click "mydomain.com" > New > Organizational Unit
+ - Name field: "_CLIENTS"
+ - Click OK
+
+<p>
+<img <img width="761" height="536" alt="Verify on DC-1" src="https://github.com/user-attachments/assets/a6f36ea7-e387-4865-81a6-c5e68e040d2e" />
+</p>
+
+- Navigate to mydomain -> Computers and drag "client-1" into "_CLIENT" Organizational Unit
+
+<p>
+<img <img width="761" height="536" alt="Verify on DC-1" src="https://github.com/user-attachments/assets/a6f36ea7-e387-4865-81a6-c5e68e040d2e" />
+</p>
+   
 
 <br />
 

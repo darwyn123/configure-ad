@@ -478,7 +478,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Look in _EMPLOYEES folder
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="751" height="525" alt="Verify Users" src="https://github.com/user-attachments/assets/10cad8d0-e808-4ce6-b1b8-ae1d9f5f86f9" />
 </p> 
 
 
@@ -487,12 +487,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Testing a Random Newly Created User</h2>
 
 - Attempt to RDP into Client-1 using one of the newly created Active Directory user credentials
+  - If the provided script previously was used, the password for every account should be "Password1"
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="751" height="525" alt="User in DC-1 Baxa" src="https://github.com/user-attachments/assets/96fc5f64-d8a7-45ee-a963-8f329759bfa1" />
 </p> 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="818" height="549" alt="RDP Baxa to CLient-1" src="https://github.com/user-attachments/assets/ca06e318-e581-486f-aede-20537b17dd30" />
+</p> 
+<p>
+<img <img width="818" height="549" alt="Baxa log in" src="https://github.com/user-attachments/assets/d1447543-55a4-4abb-8012-156bb84b83b1" />
 </p> 
 
 <br />

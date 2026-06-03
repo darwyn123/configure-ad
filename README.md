@@ -425,11 +425,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
 
-- On Client-1 (as Jane_admin):
-  - Right click Start Menu -> Navigate to System -> Remote Desktop
+- RDP to Client-1 as mydomain.com\Jane_admin):
+  - Right click Start Menu -> Navigate to System -> About -> Remote Desktop
   
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="761" height="536" alt="Jane_admin Client-1" src="https://github.com/user-attachments/assets/a25c5ad0-cd45-49da-aad5-a1934aa25588" />
+</p>
+<p>
+<img <img width="1025" height="643" alt="About " src="https://github.com/user-attachments/assets/fd5b4536-9eed-406f-9bd6-26c5a42fe01b" />
 </p>
 
   - Click "Select users that can remotely access this PC" -> Add...
@@ -438,10 +441,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Click Check Names -> OK -> OK
 
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="1019" height="664" alt="Add  (in About)" src="https://github.com/user-attachments/assets/936bc5f6-3793-4a2f-abff-9e5743155375" />
 </p>
 <p>
-<img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
+<img <img width="1019" height="664" alt="Domain Users (Check Name)" src="https://github.com/user-attachments/assets/178c0c6c-e355-4044-bf2c-c86678270f67" />
+</p> 
+<p>
+<img <img width="1019" height="664" alt="Domain Users Remote" src="https://github.com/user-attachments/assets/39414f53-3182-4e67-9652-4b3c2fdb357a" />
 </p> 
 
 

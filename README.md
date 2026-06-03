@@ -459,9 +459,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Open PowerShell ISE as an admin (Right click select Run as administrator) -> Yes
   - Click File > New
   - In the Untitled1.ps1 text box, write your own or paste this <a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">bulk user creation script</a>
-  - write your own or paste this bulk user creation script
-  - Click green Run Script button
-  - Click red Stop Operation when desired users created
+  - Click Run button
+  
     
 <p>
 <img <img width="1019" height="664" alt="DC-1 Jane login" src="https://github.com/user-attachments/assets/87eb7cdd-6361-4862-a822-be9def4017e3" />
@@ -472,10 +471,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
 </p> 
-
-  - Click green Run Script button
-  - Click red Stop Operation when desired users created
-
 <p>
 <img <img width="1054" height="579" alt="Client-1 Restart" src="https://github.com/user-attachments/assets/8d9c73f5-560b-45d9-81c5-a368fe219287" />
 </p> 
